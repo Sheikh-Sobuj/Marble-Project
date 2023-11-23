@@ -9,9 +9,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-body{
+
+body {
     background: var(--secbody);
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
@@ -52,7 +54,7 @@ img {
     --logo: #1e1e1e;
     --menu: #8e8e8e;
     --banner: #2b343d;
-    --secbody:#f7f7f7;
+    --secbody: #f7f7f7;
     --heading: #4e4e4e;
     --desc: #747474;
 }
@@ -103,135 +105,178 @@ header {
 
 .banner-btn button {
     background: var(--lightblue);
-   width: 180px;
+    width: 180px;
     height: 60px;
     font-size: 16px;
     font-weight: 400;
     color: var(--white);
     border-radius: 5px;
+    border: none;
 }
 
 .banner-btn button:hover {
     box-shadow: 0 5px 0 var(--blue);
     border: none;
 }
+
 /*---service area---*/
-.service-details{
-    margin: 60px 0;
+.service-details {
+    margin: 20px 0;
 }
-.service-icon{
+
+.service-icon {
     background: var(--sky);
     width: 90px;
     height: 90px;
     border-radius: 50%;
     margin-bottom: 30px;
 }
-.service-icon2{
+
+.service-icon2 {
     background: var(--red);
 }
-.service-icon3{
+
+.service-icon3 {
     background: var(--lightblue);
 }
-.service-icon4{
+
+.service-icon4 {
     background: var(--yellow);
 }
-.service-desc h4{
+
+.service-desc h4 {
     color: var(--heading);
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.service-desc p{
+
+.service-desc p {
     color: var(--desc);
     font-size: 18px;
     line-height: 30px;
 }
 
-hr{
+hr {
     background: var(--lightgray);
     padding: 2px 0;
 }
 
 /*---work area--*/
-.work-area{
+.work-area {
     padding: 60px 0;
 }
-.work-heading h4{
+
+.work-heading h4 {
     font-size: 18px;
     font-weight: bold;
     color: var(--heading);
     margin-bottom: 25px;
 }
-.card-body{
+
+.card-body {
     padding: 25px 0;
 }
-.card-body h4{
+
+.card-body h4 {
     color: var(--heading);
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 15px;
 }
-.card-body h6{
+
+.card-body h6 {
     color: var(--lightgray);
     font-size: 14px;
     margin-bottom: 25px;
 }
-.card-body p{
+
+.card-body p {
     color: var(--desc);
     font-size: 17px;
 }
-.faq-area{
+
+.faq-area {
     background: var(--lightgray);
     padding: 50px 0;
 }
-.testimonial-icon{
+
+.testimonial-icon {
     margin-bottom: 30px;
 }
-.testimonial-icon img{
+
+.testimonial-icon img {
     width: 50px;
-    opacity: 0.3;
+    opacity: 0.8;
 }
-.testimonial-desc p{
-    color: var(--desc);
+
+.testimonial-desc p {
+    color: var(--bgnav);
     font-size: 30px;
     opacity: 0.8;
 }
+
 /*--footer area---*/
-.footer-area{
+.footer-area {
     background: var(--black);
     color: var(--bgnav);
-    padding: 50px 0;
+    padding: 50px 0 20px;
 }
-.footer-icon{
+
+.footer-icon {
     margin-bottom: 15px;
 }
+
 .footer-icon img,
-.footer-desc img{
+.footer-desc img {
     width: 15px;
     height: 17px;
     margin-right: 20px;
 }
-.footer-heading h4{
+
+.footer-heading h4 {
     color: var(--desc);
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 25px;
 }
-.footer-desc p{
+
+.footer-desc p {
     color: var(--lightgray);
     margin-bottom: 30px;
     font-size: 19px;
     margin-top: -5px;
 }
-.footer-icon p{
+
+.footer-icon p {
     color: var(--lightgray);
     font-size: 18px;
     margin-top: -5px;
 }
-.last-footer{
-    padding: 40px 0;
+
+.last-footer {
+    padding-top: 20px;
 }
-.last-footer p{
+
+.last-footer p {
     color: var(--lightgray);
     font-size: 18px;
+}
+
+/*---responsive style----*/
+@media screen and (max-width: 768px) {
+    .banner-details h2 {
+        font-size: 24px;
+    }
+
+    .banner-details h4 {
+        font-size: 20px;
+
+    }
+
+    .testimonial-desc p {
+        font-size: 20px;
+
+    }
+
 }
