@@ -197,8 +197,10 @@ hr {
 }
 
 .faq-area {
-    background: var(--lightgray);
+    background: rgb(83, 89, 89);
+   /* background: var(--lightgray);*/
     padding: 50px 0;
+    opacity: 0.3;
 }
 
 .testimonial-icon {
@@ -211,9 +213,9 @@ hr {
 }
 
 .testimonial-desc p {
-    color: var(--bgnav);
+    color: var(--white);
     font-size: 30px;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 /*--footer area---*/
@@ -273,7 +275,11 @@ hr {
         font-size: 20px;
 
     }
-
+    .banner-btn button {
+        width: 130px;
+        height: 50px;
+        font-size: 12px;
+    }
     .testimonial-desc p {
         font-size: 20px;
 
